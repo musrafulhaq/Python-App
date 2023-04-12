@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, I'm testing in ewm....for integrating EWM to Github..."
+    return "Hello, I'm testing in ewm"
 
 if __name__ == "__main__":
     app.run(debug=True)
